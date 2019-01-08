@@ -1,0 +1,13 @@
+{
+  "firstName": "Mickey",
+  "lastName": "Mouse",
+  "middleName": "D",
+  "phoneNumber": "1231231234",
+  "email": "mickey.mouse@disney.com",
+  "specialities": [
+    "muscle",
+    "bone",
+    "theraphy",
+    "recovery"
+  ]
+}
