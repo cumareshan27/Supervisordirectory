@@ -27,11 +27,12 @@ render() {
         <div>
             <label>{this.props.labelName}</label>
             <input type="text" value={this.state.value} onChange={this.handleChange} />
-
+            
 
         </div>
-        <input type="submit" value="Submit" />
+        <div><input type="submit" value="Submit" /></div>
         </form>
+        
     );
 }
 }

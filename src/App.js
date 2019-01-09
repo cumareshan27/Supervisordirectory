@@ -8,6 +8,7 @@ class App extends Component {
         <h1>Residence Dashboard</h1>
         <Textfield id="FirstName" labelName="First Name" value="" />
         <Textfield id="LastName" labelName="Last Name" value="" />
+        <Textfield id="Email" labelName="Last Email" value="" />
       </div>
     );
   }
