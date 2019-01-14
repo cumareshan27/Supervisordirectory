@@ -1,3 +1,7 @@
 module.exports = {
-  Book: require("./book")
+  Resident: require("./resident"),
+  Supervisor: require("./supervisor"),
+  Category: require("./category"),
+  Specialty: require("./specialty")
+
 };

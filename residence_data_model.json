@@ -4,10 +4,11 @@
   "middleName": "D",
   "phoneNumber": "1231231234",
   "email": "mickey.mouse@disney.com",
-  "specialities": [
-    "muscle",
-    "bone",
-    "theraphy",
-    "recovery"
-  ]
+  "address": {
+    "addressline1": "15065 Capitalone Drive",
+    "addressline2": "",
+    "city": "Richmond",
+    "state": "VA",
+    "zipcode": "23233"
+  }
 }
