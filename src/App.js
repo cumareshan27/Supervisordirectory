@@ -1,22 +1,23 @@
-import React, { Component } from 'react';
-import Textfield from './components/Textfield';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Residents from "./components/Residents";
+// import Detail from "./pages/Detail";
+// import NoMatch from "./pages/NoMatch";
+// import Nav from "./components/Nav";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Residence Dashboard</h1>
-        <form onSubmit={this.handleSubmit}>
-          <Textfield id="FirstName" labelName="First Name" value="" />
-          <Textfield id="LastName" labelName="Last Name" value="" />
-          <Textfield id="Email" labelName="Last Email" value="" />
-          <div>
-            <input type="submit" value="Submit" />
-          </div>
-        </form>
+function App() {
+  return (
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Residents} />
+          {/* <Route exact path="/books" component={Books} />
+          <Route exact path="/books/:id" component={Detail} />
+          <Route component={NoMatch} /> */}
+        </Switch>
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;
